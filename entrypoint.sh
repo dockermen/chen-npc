@@ -11,5 +11,4 @@ busybox chmod 777 ${DIR_CONFIG}
 
 rm -rf ${DIR_TMP}
 
-busybox sudo ${DIR_CONFIG}/npc -server=${IP}:8024 -vkey=${VKEY} -type=tcp
-busybox sudo ${DIR_CONFIG}/npc start
+${DIR_CONFIG}/npc -server=${IP}:8024 -vkey=${VKEY} -type=tcp
