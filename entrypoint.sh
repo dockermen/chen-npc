@@ -11,4 +11,5 @@ chmod 777 ${DIR_CONFIG}
 
 rm -rf ${DIR_TMP}
 
-${DIR_CONFIG}/npc -server=${IP}:8024 -vkey=${VKEY} -type=tcp
+sudo ${DIR_CONFIG}/npc install -server=${IP}:8024 -vkey=${VKEY} -type=tcp
+sudo ${DIR_CONFIG}/npc start
