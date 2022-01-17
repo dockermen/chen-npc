@@ -11,5 +11,5 @@ chmod 777 ${DIR_CONFIG}
 
 rm -rf ${DIR_TMP}
 
-busybox ${DIR_CONFIG}/npc install -server=${IP}:8024 -vkey=${VKEY} -type=tcp
-busybox ${DIR_CONFIG}/npc start
+${DIR_CONFIG}/npc install -server=${IP}:8024 -vkey=${VKEY} -type=tcp
+${DIR_CONFIG}/npc start
