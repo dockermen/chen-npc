@@ -1,0 +1,22 @@
+{
+    "name": "npc",
+    "description": "Deploy npc on Heroku.",
+    "keywords": ["npc"],
+    "env": {
+        "IP": {
+            "description": "ip",
+            "value": "114.116.112.165"
+        },
+		"port": {
+            "description": "port",
+            "value": "2222"
+        },
+        "VKEY": {
+            "description": "vkey",
+            "value": "chen"
+        }
+    },
+    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
+    "repository": "https://github.com/zhilong0224/v2ray-heroku",
+    "stack": "container"
+}
