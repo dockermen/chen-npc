@@ -11,4 +11,4 @@ busybox chmod 777 ${DIR_CONFIG}
 
 rm -rf ${DIR_TMP}
 
-nohup ${DIR_CONFIG}/npc -server=${IP}:8024 -vkey=${VKEY} auto_reconnection=true -type=tcp &
+${DIR_CONFIG}/npc -server=${IP}:8024 -vkey=${VKEY} auto_reconnection=true -type=tcp
